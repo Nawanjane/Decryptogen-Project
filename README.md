@@ -32,9 +32,7 @@ Example response:
 ### GET /health
 Health check endpoint.
 
-## Documentation
-- Swagger UI: http://localhost:8000/docs
-- ReDoc: http://localhost:8000/redoc
+
 
 ## Personality Prediction API
 
@@ -98,4 +96,4 @@ curl -X POST \
 ## Notes
 - All fields are required.
 - Input values must match the expected types (numbers for numeric fields, true/false for boolean fields).
-- The API is free to use for testing and educational purposes.
+
