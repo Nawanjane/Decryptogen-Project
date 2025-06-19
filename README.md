@@ -2,33 +2,6 @@
 
 A FastAPI-based REST API for predicting personality type (Introvert/Extrovert) based on behavioral features.
 
-## Setup
-
-1. Clone the repository:
-```bash
-git clone <your-repo-url>
-cd personality_api
-```
-
-2. Create a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate
-```
-
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-## Running the API
-
-```bash
-uvicorn main:app --reload
-```
-
-The API will be available at http://localhost:8000
-
 ## API Endpoints
 
 ### POST /predict
