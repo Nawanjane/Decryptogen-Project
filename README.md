@@ -83,13 +83,13 @@ curl -X POST \
   https://decryptogen-personality-api-f1f379d06e9a.herokuapp.com/predict \
   -H 'Content-Type: application/json' \
   -d '{
-    "time_spent_alone": 5.0,
-    "social_event_attendance": 2.0,
-    "going_outside": 3.0,
-    "friends_circle_size": 4.0,
-    "post_frequency": 1.0,
+    "time_spent_alone": 20.0,
+    "social_event_attendance": 0.0,
+    "going_outside": 0.0,
+    "friends_circle_size": 0.0,
+    "post_frequency": 0.0,
     "stage_fear": true,
-    "drained_after_socializing": false
+    "drained_after_socializing": true
   }'
 ```
 
